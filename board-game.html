@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Board Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<section class="hero">
+  <h1 class="main-title">Board Game</h1>
+  <p class="subtitle">Turn-Based System Design</p>
+</section>
+
+<section class="section">
+  <div class="project-content">
+
+  <h2>Overview</h2>
+  <p>
+    Board Game is a structured turn-based physical strategy game focused on rule clarity,
+    balanced player interaction, and decision-driven progression.
+    The project explores system design beyond digital implementation,
+    emphasizing fairness and strategic depth.
+  </p>
+
+  <h2>Game Visuals</h2>
+
+<div class="slider">
+  <button class="arrow left" onclick="prevSlide()">❮</button>
+
+  <img id="slider-image" src="images/board1.jpg">
+
+  <button class="arrow right" onclick="nextSlide()">❯</button>
+</div>
+
+  <h2>Core Gameplay Loop</h2>
+  <p>
+    Roll → Move → Trigger Event → Resolve Outcome → Switch Turn
+  </p>
+  <p>
+    The gameplay loop encourages planning, probability assessment,
+    and tactical decision-making within a structured rule framework.
+  </p>
+
+  <h2>Design Decisions</h2>
+  <p>
+    Rules were intentionally structured to prevent ambiguity and dominant strategies.
+    Player advantages and progression mechanics were balanced through multiple playtesting iterations.
+    The design emphasizes fairness, clarity, and strategic depth.
+  </p>
+
+  <h2>System Structure</h2>
+  <p>
+    • Defined turn-based state transitions  
+    • Designed event-trigger framework  
+    • Balanced reward and penalty mechanics  
+    • Structured win-condition logic  
+    • Iteratively refined rules through testing  
+  </p>
+
+  <h2>Challenges & Solutions</h2>
+  <p>
+    Early versions revealed balance issues where certain strategies dominated gameplay.
+    Adjustments to rule constraints and event probabilities created a more competitive and fair experience.
+  </p>
+
+  <h2>What I Learned</h2>
+  <p>
+    This project strengthened my understanding of system-based design,
+    balance iteration, and rule clarity in structured gameplay experiences.
+  </p>
+
+</div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
